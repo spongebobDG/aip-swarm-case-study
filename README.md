@@ -4,6 +4,13 @@ ROS 2 Humble 기반 군집 순찰 로봇 팀 프로젝트에서 제가 담당한
 
 > This repository documents my scoped contribution to a team-built ROS 2 swarm system. It does not present the complete team system as my individual work.
 
+| 구분 | 내용 |
+|---|---|
+| 기간 | 2026.04–2026.06 |
+| 구성 | 5인 팀 · K-Digital Training 최종 프로젝트 |
+| 본인 담당 | 카메라·열화상 연동, 웹 관제·WebSocket, 서브차량 구동 흐름, 통신 계약·시연 자료 |
+| 전체 워크스페이스 | [aip-swarm-portfolio](https://github.com/spongebobDG/aip-swarm-portfolio) |
+
 ## Why This Repository Exists
 
 원본 `aip-swarm-ws`는 팀 프로젝트 저장소입니다. 팀의 공개·제출 동의를 받았지만, 전체 코드를 복제해 개인 프로젝트처럼 보이게 하는 대신 본인 기여와 팀 시스템의 경계를 명확히 공개합니다.
@@ -27,7 +34,7 @@ Vehicle sensors / cameras
 
 | 구분 | 담당 내용 | 관련 원본 모듈 |
 |---|---|---|
-| 본인 수행 | 웹 관제 서버와 화면 | `aip_fleet_dashboard`, `FleetDashboard.tsx` |
+| 본인 수행 | 웹 관제 서버·화면과 WebSocket 연결 | `aip_fleet_dashboard`, `FleetDashboard.tsx` |
 | 본인 수행 | 카메라·인식 결과의 관제 연동 | `aip_fleet_perception`, `PerceptionAlert` 인터페이스 |
 | 본인 수행 | 서브 차량 구동 연동 | scout firmware·구동 명령 경로 |
 | 공동 수행 | 위 기능을 팀 ROS 2 graph와 통합·시험 | 팀 launch/config와 인터페이스 조율 |
